@@ -42,9 +42,12 @@ export default function Home() {
       {/* Sabit ve Şık Navbar */}
       <nav className="fixed top-0 left-0 w-full z-50 bg-zinc-950/80 backdrop-blur-md border-b border-white/5">
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-          <div className="text-2xl font-light tracking-widest text-white">
-            PREMIUM <span className="font-bold text-amber-500">DENTAL</span>
-          </div>
+          
+          {/* Lüks Görsel Logo Alanı */}
+          <a href="#hero" className="flex items-center transition-transform hover:scale-105">
+            <img src="/logo.png" alt="Premium Dental Logo" className="h-10 md:h-12 object-contain" />
+          </a>
+
           <div className="hidden md:flex items-center gap-8 text-sm uppercase tracking-widest">
             <a href="#hero" className="hover:text-amber-500 transition-colors">Ana Sayfa</a>
             <a href="#hizmetler" className="hover:text-amber-500 transition-colors">Uzmanlıklarımız</a>
